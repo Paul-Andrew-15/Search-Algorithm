@@ -67,10 +67,8 @@ print(array)
 k = eval(input()) 
 result=binarySearchIter(array, k,0,len(array)-1)
 if result>=0:
-    
     print("Element found at index: ",result)
 else:
-    
     print ("Element not found")
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
@@ -105,12 +103,15 @@ else:
 ```
 ## Output:
 i)Linear search
+
 ![output](./output1.png)
 
 ii)Binary search (Iterative method)
+
 ![output](./output2.png)
 
 iii)Binary search (Recurive method)
+
 ![output](./output3.png)
 
 
